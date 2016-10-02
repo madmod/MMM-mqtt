@@ -1,6 +1,6 @@
 'use strict';
 
-/* global Log, Module, config, L, Tangram */
+/* global Log, Module, config */
 /* Magic Mirror
  * Module: mqtt
  *
@@ -18,12 +18,6 @@ Module.register('mqtt', {
     ];
   },
 
-  // Define styles.
-  getStyles: function() {
-    return [
-    ];
-  },
-
   // Define start sequence.
   start: function() {
     Log.info('Starting module: ' + this.name);
@@ -36,11 +30,6 @@ Module.register('mqtt', {
     }, 1000);
     */
   },
-
-  // Override dom generator.
-  getDom: function() {
-    return;
-  }
 
 });
 
