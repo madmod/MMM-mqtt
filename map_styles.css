@@ -1,0 +1,53 @@
+
+.map > .module-content {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.map-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.map {
+  background: rgba(0, 0, 0, 0);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+
+.label {
+  /*width: 200px;*/
+  /*margin-left: -100px;*/
+  position: absolute;
+  z-index: 500;
+  text-align: left;
+  margin: 0px;
+  background: #333;
+  opacity: 0.9;
+  padding: 2px;
+  /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+  /*word-wrap: break-word;*/
+}
+
+.labelInner {
+  padding: 3px 0px;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+  opacity: 2.0;
+  margin: 0px;
+}
+
+.labelLine {
+  /*border: 2px solid gold;*/
+}
+
+.labelLine:hover {
+  border: 2px solid gold;
+}
+
+
